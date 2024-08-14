@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E230871928D5BE36009E15E3 /* WeirdleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230871828D5BE36009E15E3 /* WeirdleApp.swift */; };
+		E230871B28D5BE36009E15E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230871A28D5BE36009E15E3 /* ContentView.swift */; };
+		E230871D28D5BE39009E15E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E230871C28D5BE39009E15E3 /* Assets.xcassets */; };
+		E230872028D5BE39009E15E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E230871F28D5BE39009E15E3 /* Preview Assets.xcassets */; };
+		E230872828D5BEE0009E15E3 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230872728D5BEE0009E15E3 /* Game.swift */; };
+		E230872A28D5BF17009E15E3 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230872928D5BF17009E15E3 /* Grid.swift */; };
+		E230872C28D5BF5C009E15E3 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230872B28D5BF5C009E15E3 /* Keyboard.swift */; };
+		E230873428D5C0D6009E15E3 /* answers.txt in Resources */ = {isa = PBXBuildFile; fileRef = E230873328D5C0D6009E15E3 /* answers.txt */; };
+		E230873628D5C0FA009E15E3 /* answers5.txt in Resources */ = {isa = PBXBuildFile; fileRef = E230873528D5C0FA009E15E3 /* answers5.txt */; };
+		E230873828D5C172009E15E3 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230873728D5C172009E15E3 /* data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E230871528D5BE36009E15E3 /* Weirdle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weirdle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E230871828D5BE36009E15E3 /* WeirdleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeirdleApp.swift; sourceTree = "<group>"; };
+		E230871A28D5BE36009E15E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E230871C28D5BE39009E15E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E230871F28D5BE39009E15E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E230872728D5BEE0009E15E3 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		E230872928D5BF17009E15E3 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		E230872B28D5BF5C009E15E3 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		E230873328D5C0D6009E15E3 /* answers.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = answers.txt; sourceTree = "<group>"; };
+		E230873528D5C0FA009E15E3 /* answers5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = answers5.txt; sourceTree = "<group>"; };
+		E230873728D5C172009E15E3 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E230871228D5BE36009E15E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E230870C28D5BE36009E15E3 = {
+			isa = PBXGroup;
+			children = (
+				E230871728D5BE36009E15E3 /* Weirdle */,
+				E230871628D5BE36009E15E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E230871628D5BE36009E15E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E230871528D5BE36009E15E3 /* Weirdle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E230871728D5BE36009E15E3 /* Weirdle */ = {
+			isa = PBXGroup;
+			children = (
+				E230871828D5BE36009E15E3 /* WeirdleApp.swift */,
+				E230872728D5BEE0009E15E3 /* Game.swift */,
+				E230872628D5BEC4009E15E3 /* Views */,
+				E230872F28D5C01D009E15E3 /* Data */,
+				E230871C28D5BE39009E15E3 /* Assets.xcassets */,
+				E230871E28D5BE39009E15E3 /* Preview Content */,
+			);
+			path = Weirdle;
+			sourceTree = "<group>";
+		};
+		E230871E28D5BE39009E15E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E230871F28D5BE39009E15E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E230872628D5BEC4009E15E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E230871A28D5BE36009E15E3 /* ContentView.swift */,
+				E230872928D5BF17009E15E3 /* Grid.swift */,
+				E230872B28D5BF5C009E15E3 /* Keyboard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E230872F28D5C01D009E15E3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E230873328D5C0D6009E15E3 /* answers.txt */,
+				E230873528D5C0FA009E15E3 /* answers5.txt */,
+				E230873728D5C172009E15E3 /* data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E230871428D5BE36009E15E3 /* Weirdle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E230872328D5BE39009E15E3 /* Build configuration list for PBXNativeTarget "Weirdle" */;
+			buildPhases = (
+				E230871128D5BE36009E15E3 /* Sources */,
+				E230871228D5BE36009E15E3 /* Frameworks */,
+				E230871328D5BE36009E15E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weirdle;
+			productName = Weirdle;
+			productReference = E230871528D5BE36009E15E3 /* Weirdle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E230870D28D5BE36009E15E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E230871428D5BE36009E15E3 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E230871028D5BE36009E15E3 /* Build configuration list for PBXProject "Weirdle" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E230870C28D5BE36009E15E3;
+			productRefGroup = E230871628D5BE36009E15E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E230871428D5BE36009E15E3 /* Weirdle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E230871328D5BE36009E15E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E230872028D5BE39009E15E3 /* Preview Assets.xcassets in Resources */,
+				E230873428D5C0D6009E15E3 /* answers.txt in Resources */,
+				E230873628D5C0FA009E15E3 /* answers5.txt in Resources */,
+				E230871D28D5BE39009E15E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E230871128D5BE36009E15E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E230871B28D5BE36009E15E3 /* ContentView.swift in Sources */,
+				E230873828D5C172009E15E3 /* data.swift in Sources */,
+				E230872828D5BEE0009E15E3 /* Game.swift in Sources */,
+				E230872C28D5BF5C009E15E3 /* Keyboard.swift in Sources */,
+				E230871928D5BE36009E15E3 /* WeirdleApp.swift in Sources */,
+				E230872A28D5BF17009E15E3 /* Grid.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E230872128D5BE39009E15E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E230872228D5BE39009E15E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E230872428D5BE39009E15E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weirdle/Preview Content\"";
+				DEVELOPMENT_TEAM = 43LKX43SVM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github-ahmedabkdr.Weirdle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E230872528D5BE39009E15E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weirdle/Preview Content\"";
+				DEVELOPMENT_TEAM = 43LKX43SVM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github-ahmedabkdr.Weirdle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E230871028D5BE36009E15E3 /* Build configuration list for PBXProject "Weirdle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E230872128D5BE39009E15E3 /* Debug */,
+				E230872228D5BE39009E15E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E230872328D5BE39009E15E3 /* Build configuration list for PBXNativeTarget "Weirdle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E230872428D5BE39009E15E3 /* Debug */,
+				E230872528D5BE39009E15E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E230870D28D5BE36009E15E3 /* Project object */;
+}
